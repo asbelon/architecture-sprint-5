@@ -53,7 +53,11 @@ rasa train
 Запуск ассистента
 
 ```bash
-rasa run --enable-api --debug --logging-config-file ./logging.config.yml
+rasa run --enable-api --debug
+```
+
+```bash
+rasa run --enable-api --logging-config-file ./logging.config.yml
 ```
 
 ```bash
