@@ -53,7 +53,7 @@ rasa train
 Запуск ассистента
 
 ```bash
-rasa run --enable-api --debug
+rasa run --enable-api --debug 
 ```
 
 ```bash
