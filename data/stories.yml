@@ -17,3 +17,18 @@ stories:
     steps:
       - intent: request_info
       - action: utter_ask_more
+
+  - story: interactive_story_1
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_architecture
+    - action: utter_architecture_response
+    - intent: goodbye
+    - action: utter_goodbye
+
+  - story: interactive_story_2
+    steps:
+    - intent: ask_architecture
+    - action: utter_architecture_response
+
